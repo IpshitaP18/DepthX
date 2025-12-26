@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Analysis Dashboard - DepthX</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-slate">
+
+  <div class="dashboard-container">
+    <div class="report-header">
+      <h1 class="text-3xl font-semibold">DSA Performance Analysis</h1>
+      <p id="topicSubtitle" class="text-slate-600">Accuracy, strengths, & conceptual debt review</p>
+    </div>
+
+    <div class="card shadow-sm">
+      <h2 class="card-title">Overall Accuracy</h2>
+      <div class="progress-wrapper">
+        <div class="progress-bar-bg">
+          <div id="progressBarFill" class="progress-bar-fill"></div>
+        </div>
+        <span id="accuracyLabel" class="accuracy-text">0/8</span>
+      </div>
+      <p id="accuracyInference" class="inference-text"></p>
+    </div>
+
+    <div class="grid-2">
+      <div class="card">
+        <h2 class="card-title">Strengths</h2>
+        <div id="strengthsList" class="badge-container"></div>
+      </div>
+      <div class="card">
+        <h2 class="card-title">Weaknesses</h2>
+        <div id="weaknessesList" class="badge-container"></div>
+      </div>
+    </div>
+
+    <div class="card bg-indigo">
+      <h2 class="card-title">Suggested Action Plan</h2>
+      <ul id="actionPlan" class="action-list"></ul>
+    </div>
+
+    <div class="flex-center">
+      <button class="btn-primary" onclick="goHome()">Back to Topics</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
