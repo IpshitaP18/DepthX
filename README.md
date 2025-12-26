@@ -66,7 +66,7 @@ DepthX/
 - More topics and quizzes
 - Student performance analytics
 - Backend integration
-- - Advanced and interactive UI with animations and visual progress indicators
+- Advanced and interactive UI with animations and visual progress indicators
 ---
 
 ## Originality Declaration
@@ -81,3 +81,4 @@ This project was developed during the hackathon and is original work. No pre-exi
   - Deepika 
 
 ---
+
